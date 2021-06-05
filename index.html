@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <<!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"></script>
+
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.5.0/mdb.min.css" rel="stylesheet" />
+</head>
+<style>
+  body {
+    height: 300vh;
+    /* background-color: lightgray; */
+  }
+
+  .item {
+    font-size: large;
+    color: gray;
+    font-weight: 500;
+    text-decoration: none;
+  }
+
+  .item:hover {
+    color: #5e068a;
+    text-decoration: none;
+  }
+
+  .btn-change {
+    background-color: #5e068a;
+
+  }
+
+  .slide {
+
+    display: flex;
+    justify-content: start;
+
+  }
+
+  .tab {
+    display: flex;
+    justify-content: center;
+  }
+
+  .vm {
+    text-decoration: underline;
+    font-weight: 600;
+  }
+
+  .cc {
+    text-decoration: underline;
+
+  }
+
+  .card-title {
+    color: #5e068a;
+
+  }
+
+  .card-body {
+    width: 300px;
+    height: 250px;
+  }
+</style>
+
+<body>
+  <div class="container-fluid pt-2 text-white " style="background-color: #5e068a;">
+    <div class="row text-center">
+      <div class="col mb-3 text-white " style="background-color:#5e068a;">Have any question? +91 8086 651 651</div>
+
+      <div class="col text-white " style="background-color:#5e068a;"><span class="material-icons small">
+          call
+        </span> +91 8086 651 651 <span class="material-icons small">
+          email
+        </span> contact@luminartechnolab.com</div>
+    </div>
+  </div>
+  <nav class="navbar navbar-expand-sm justify-content-sm-evenly sticky-top" style=" background-color: white ;">
+    <a class="navbar-brand " href="#">
+      <img src="img/logo.png" alt="Logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon "></span>
+    </button>
+    <ul class="navbar-nav ">
+      <li class="nav-item">
+        <a class="nav-link item" href="#">HOME</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link item" href="#">ABOUT</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link item" href="#">COURSES</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link item" href="#">OUR PLACEMENTS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link item" href="#">GALLERY</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link item" href="#">CONTACT</a>
+      </li>
+    </ul>
+  </nav>
+  <br>
+  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel"
+    style="width: 100%; height: 500px;">
+    <div class="carousel-inner ">
+      <div class="carousel-item active" style="height: 400px;">
+        <img src="img/img1.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <div class="hero-slider-content">
+            <h1 style="font-weight: 700;">Kerala's No.1 IT Finishing School<br>100% Placement Assistance</h1>
+            <p>We at LUMINAR TECHNOLAB offers best software training and placement in emerging technologies like BIG
+              DATA, Data Science, Machine Learning,PYTHON, Software Testing.</p>
+            <div class="slider-btn">
+              <a type="button" class="btn  btn-lg text-white" style="background-color:#5e068a ;"" href="
+                https://www.luminartechnolab.com/courses">View Courses</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item " style="height: 400px;">
+        <img src="img/img2.jpg" class="d-block w-100 " alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <div class="hero-slider-content">
+            <h1 class="text-center">Data Science, ML & AI<br> Big Data - Hadoop & Spark <br> Python Data Science</h1>
+            <p>We LUMINAR TECHNOLAB offers best software training and placement in emerging technologies like Big Data,
+              Hadoop, Spark,Data Scince, Machine Learning, Deep Learning and AI.</p>
+            <div class="slider-btn">
+              <a type="button" class="btn  btn-lg text-white" style="background-color:#5e068a ;"
+                href="https://www.luminartechnolab.com/courses">View Courses</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <br>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-sm-12 ">
+        <div class="container-fluid p-5 ">
+          <div>
+            <h1 style="color:#5e068a;">Luminar Technolab</h1>
+          </div>
+          <div class="pt-3">
+            <p>Luminar Technolab is an IT Finishing School located near Infopark - Cochin,</p>
+            <p>focused on providing advanced level software training to Students and by helping</p>
+            <p>them to get placed in IT companies. We are a team of IT professionals who have</p>
+            <p>experience in IT sector for more than 15 plus years. Our fresher’s career foster</p>
+            <p>programs are Big Data Training, Data Science Training, Data Analytics Training,</p>
+            <p>Python Training, Software Testing Training & Selenium Training in Cochin, Kerala</p>
+            <p>are designed in such a way to match with the current industry requirements. Our</p>
+            <p>Vision is to provide 100% placements to students those who enroll with us for our</p>
+            <p>specialized courses.</p>
+          </div>
+          <div class="more">
+            <a type="button" class="btn  btn-lg text-white btn-change" " href="
+              https://www.luminartechnolab.com/about">Learn more</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-sm-12 ">
+
+        <div class="container-fluid">
+          <img src="img/img3.jpg" alt="" class="w-100">
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <h1 class="text-center mt-5" style="color: #5e068a;"><b>OUR COURSES</b></h1>
+  <div class="container hover-shadow">
+
+    <div class="row mt-5 ">
+      <div class="col-lg-6 col-sm-12 ">
+        <div class="container ">
+          <div class="p-3">
+            <img src="https://www.luminartechnolab.com/storage/uploads/data-science-1588143159.jpg" alt=""
+              width="100% ">
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-sm-12 ">
+
+        <div class="container p-3">
+          <h1 style="color: #5e068a;">DATA SCIENCE - ML - AI - BIG DATA WITH CLOUD & TABLEAU</h1>
+          <p>
+            Python, Hadoop, Spark, Data Analytics, Linear Algebra, Statistics, Probability Concepts, Machine Learning,
+            Deep Learning, Data Science, Artificial Intelligence, Tableau, AWS Cloud.
+          </p>
+          <p>
+            <b>Course contents for Data Science - ML - AI - Big Data with Cloud & Tableau Training in Kochi, Kerala.
+            </b>
+          </p>
+          <p class="cc"><b>Course contents:</b></p>
+          <a href="#" style="color:#5e068a;" class="vm">VIEW MORE</a>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 col-lg-4 ">
+        <div class="card hover-shadow
+        ">
+          <img src="https://www.luminartechnolab.com/storage/uploads/python-1588143191.jpg" class="card-img-top"
+            alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Python Django - Angular- Full Stack Web Development Expert</h5>
+            <br>
+            <p class="card-text">
+              Core Python, Basics of Programming, Unix Commands, Advanced Python, Django Framework, REST API, Git,
+              Angul...
+            </p>
+            <a href="#!" class="btn btn-primary" style="background-color: #5e068a;">VIEW MORE</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12 col-lg-4 ">
+        <div class="card hover-shadow
+        ">
+          <img src="https://www.luminartechnolab.com/storage/uploads/st-1588580359.jpg" class="card-img-top"
+            alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Software Testing Specialist</h5>
+            <h5></h5>
+            <br>
+            <p class="card-text">
+              Manual Testing, Java foundations, Mobile Testing, Selenium IDE, Selenium Web driver, Selenium Advanced
+              Web...
+            </p>
+            <a href="#!" class="btn btn-primary" style="background-color: #5e068a;">VIEW MORE</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12 col-lg-4 ">
+        <div class="card hover-shadow
+        ">
+          <img src="https://www.luminartechnolab.com/storage/uploads/ms-1588143345.jpg" class="card-img-top"
+            alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">MEARN Stack Web Development Expert - Angular & React</h5>
+            <br>
+            <p class="card-text">
+              MongoDB, Express.JS, Angular, React.js and Node.js.
+            </p>
+            <a href="#!" class="btn btn-primary" style="background-color: #5e068a;">VIEW MORE</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  
+</body>
+
+</html>
